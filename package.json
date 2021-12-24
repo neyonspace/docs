@@ -1,0 +1,19 @@
+{
+  "name": "neyondocs",
+  "version": "0.0.1",
+  "description": "Official Neyon Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Neyon",
+    "email": "developer@neyon.space"
+  },
+  "repository": "git@github.com:neyonspace/docs.git/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
